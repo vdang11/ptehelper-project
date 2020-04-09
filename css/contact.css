@@ -1,0 +1,627 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/stp2sjp.css");
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url("../webfonts/AceSansThin/stylesheet.css");
+@import "cmxform.css";
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+
+/*Stye for Main elements*/
+
+.main_body {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    clear: both;
+    color: #FFFFFF;
+    max-height: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55% 38%;
+}
+
+.main_header {
+    width: 100%;
+    float: left;
+    text-align: left;
+    background-color: #003057;
+    height: 15%;
+    clear: both;
+    position: fixed;
+    opacity: 1;
+    z-index: 1;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+a, a:hover {
+	color: #FFFB9F;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 98px;
+    margin-top: 7px;
+    padding-top: 0px;
+    float: left;
+}
+
+.main_header .main_nav {
+    text-align: left;
+    width: 68%;
+    border-radius: 35px;
+    padding-top: 0px;
+    position: relative;
+    background-color: #003057;
+    color: #FFFFFF;
+    margin-bottom: 69px;
+    float: left;
+    margin-top: 13px;
+    margin-left: -18px;
+}
+
+nav ul li {
+    display: inline-table;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: relative;
+    padding: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 0px;
+    text-align: left;
+}
+
+nav ul li > .subnav {
+	display: none;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+nav ul li:hover .subnav {
+    display: block;
+    text-align: left;
+    background-size: contain;
+    background-color: rgba(255,251,159,1.00);
+}
+nav ul li:hover .subnav .subnavlist:hover {
+    display: block;
+    text-align: left;
+    background-size: contain;
+    padding: 0;
+}
+
+.subnav .subnavlist a.second_nav_text {
+    font-weight: normal;
+    font-size: large;
+    text-align: left;
+    margin: 0;
+    color: #003057;
+    padding-left: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subnav .subnavlist a.second_nav_text:hover {
+    color: #003057;
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 4px;
+    letter-spacing: 2px;
+}
+
+.main_nav .navlist .navlistitem > a.main_nav_text   {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: large;
+    width: 0;
+    letter-spacing: 2px;
+}
+
+.main_nav .navlist .navlistitem a.main_nav_text:hover    {
+    background-color: #FFFB9F;
+    color: #003057;
+    font-size: large;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.main_header .main_nav .navlist {
+    width: 100%;
+    float: left;
+    padding-left: 114px;
+    margin-left: -5%;
+}
+
+.main_nav .navlist #iamhere a {
+    color: #FFFFFF;
+    border-bottom: 5px outset #F42271;
+}
+.main_nav .navlist #iamhere a:hover {
+	color: #003057;
+}
+/*End Style for Navigation*/
+
+
+/*Style for Call Now*/
+.call_now {
+    float: right;
+    width: 15%;
+    clear: both;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-radius: 21px;
+    margin-top: -140px;
+}
+.call_now h2 {
+    background-color: #F42271;
+    text-align: center;
+    padding-left: 0px;
+    color: #FFFFFF;
+    border-bottom-left-radius: 28px;
+    border-top-left-radius: 28px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.call_now h2 a {
+    color: rgba(255,255,255,1.00);
+	font-family: futura-pt-bold;
+    font-weight: 500;
+}
+.call_now h2 a:hover  {
+    color: rgba(244,34,113,1.00);
+}
+
+.call_now h2:hover {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-left: 0px;
+    color: #F42271;
+    border-radius: 28px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    -webkit-box-shadow: inset 8px 0 0px rgba(213,232,247,1.00);
+    box-shadow: inset 8px 0 0px rgba(213,232,247,1.00);
+}
+
+
+/*Style for Footer*/
+
+footer .footer_2 .h4_slogan {
+    margin-top: -19px;
+    font-weight: lighter;
+}
+
+.main_body footer {
+    background-color: rgba(0,48,87,1.00);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    clear: both;
+    margin-top: 5%;
+    float: left;
+}
+
+footer .footer_1 .h2_title {
+    width: 40%;
+    letter-spacing: 4px;
+}
+footer .copyright h5 {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: rgba(255,251,159,1.00);
+}
+.footer_2 .footnote_nav .footnote_nav_items {
+    color: rgba(255,255,255,1.00);
+    text-transform: uppercase;
+}
+
+.footer_2 .footnote_nav .footnote_nav_items:hover  {
+    color: rgba(255,255,255,1.00);
+    text-transform: uppercase;
+	border-bottom: 5px outset #F42271;
+}
+
+section.footer_1 h2.h2_title_footer{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: xx-large;
+    border: medium solid #003057;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+}
+/*End Style for Footer*/
+
+/*Style for Contact*/
+.main_body .contact {
+    width: 65%;
+    float: left;
+    background-color: #FFFFFF;
+    margin-top: 9%;
+    padding-left: 36px;
+    margin-bottom: 0px;
+}
+.contact_info .get_in_touch h3 {
+    color: #003057;
+}
+.contact_info .get_in_touch .address_info {
+    color: #003057;
+    width: 45%;
+    float: left;
+    margin-top: -20px;
+    margin-left: 6px;
+}
+.contact_info .get_in_touch .address_icon {
+    width: 3%;
+    float: left;
+}
+.get_in_touch .address_icon .fa.fa-fw.fa-user.login {
+    color: #003057;
+}
+.contact .contact_title p {
+    width: 58%;
+    color: #003057;
+}
+.main_body .contact .contact_title {
+    float: left;
+    width: 100%;
+    clear: both;
+}
+.main_body .contact .contact_info {
+    width: 50%;
+    float: left;
+    margin-top: 23px;
+}
+.main_body .contact .container {
+    float: left;
+    width: 40%;
+    padding-right: 0px;
+    padding-left: 85px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "futura-pt";
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin-top: -60px;
+    background-color: #FFFFFF;
+}
+.container form fieldset {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    border-width: 0px;
+}
+form .submit input {
+    color: #FFFFFF;
+    font-family: AceSansThin;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    background-color: #F42271;
+    font-weight: bold;
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 23px;
+    padding-left: 17px;
+    padding-right: 14px;
+    margin-left: 184px;
+}
+form .submit input:hover  {
+    color: #FFFFFF;
+    font-family: AceSansThin;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    background-color: #003057;
+    font-weight: bolder;
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 23px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-left: 184px;
+}
+.container form .submit {
+    padding-top: 4px;
+}
+form fieldset .form_info {
+    display: none;
+    border: thin solid #003057;
+}
+form fieldset .box {
+    width: 85%;
+    padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 7px #003057;
+    box-shadow: 0px 0px 7px #003057;
+    border: thin solid #003057;
+}
+form fieldset textarea {
+    border-radius: 9px;
+    margin-top: 11px;
+    text-shadow: 0px 0;
+    width: 87%;
+    border-width: thin;
+    border-color: #003057;
+}
+
+.contact .contact_title h2 {
+    color: #003057;
+    font-family: AceSansThin;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/*Style for Cubes*/
+
+.main_body .cubes.right  {
+    width: 15%;
+    float: right;
+    position: relative;
+    margin-top: 20%;
+}
+.main_body .cubes.right .cubes_a {
+    float: left;
+    margin-left: 32px;
+    position: relative;
+    clear: both;
+}
+.main_body .cubes.right .cubes_b {
+    float: right;
+    clear: both;
+    margin-top: 1px;
+    position: relative;
+}
+.main_body .cubes.right .cubes_c {
+    float: left;
+    margin-top: 26px;
+    position: relative;
+}
+.main_body .cubes.left {
+    float: left;
+    width: 15%;
+    height: 100%;
+    position: relative;
+    margin-top: 32%;
+    clear: both;
+}
+.main_body .cubes.left .cubes_a {
+    float: left;
+    margin-left: 41px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 29px;
+}
+.main_body .cubes.left .cubes_b {
+    float: right;
+    margin-top: -84px;
+    margin-right: -14px;
+    position: relative;
+}
+.main_body .cubes.left .cubes_c {
+    float: left;
+    position: relative;
+    margin-left: 97px;
+    margin-top: -31px;
+}
+
+/*Style for Locations*/
+.main_body .location_container {
+    float: left;
+    clear: both;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+}
+.main_body .location_container .location_list {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.main_body .location_container .location_container_left {
+    width: 50%;
+    float: left;
+}
+
+.location_list .list_a img {
+    position: relative;
+    left: 16%;
+    right: 20%;
+}
+.location_list .list_b img {
+    position: relative;
+    left: 17%;
+    right: 20%;
+}
+.location_container .location_list .list_a {
+    width: 100%;
+    position: relative;
+    background-color: #003057;
+    float: left;
+}
+.location_container .location_list .list_b {
+    width: 100%;
+    position: relative;
+    background-color: #FBFAD6;
+    float: left;
+}
+.location_list .list_a h4 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    margin-top: 74px;
+}
+.location_list .list_b h4 {
+    color: #003057;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    margin-top: 74px;
+}
+.location_list .list_a p {
+    color: #FFFFFF;
+    text-align: center;
+}
+.location_list .list_b p {
+    color: #003057;
+    text-align: center;
+}
+.location_list .list_a .location_info {
+    margin-top: -83px;
+}
+.location_list .list_b .location_info {
+    margin-top: -83px;
+}
+.main_body .location_container #googleMap {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.location_list .overlay_a .text {
+    float: left;
+    color: #003057;
+    text-transform: uppercase;
+    font-size: 230%;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    clear: both;
+    padding-left: 10%;
+}
+.location_list .overlay_b .text {
+    float: left;
+    color: #003057;
+    text-transform: uppercase;
+    font-size: 230%;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    padding-left: 10%;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    clear: both;
+}
+.location_container .location_list .overlay_container {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+.location_container .location_list .overlay_container:hover .overlay_a {
+	height: 100%;
+}
+.location_container .location_list .overlay_container:hover .overlay_b {
+	height: 100%;
+}
+.location_list .overlay_a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #B3D9F8;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.location_list .overlay_b {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFB9F;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+/*End style for Locations*/
+
+/*Style for Social Button*/
+.main_body .booking {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    float: left;
+    font-size: x-large;
+    text-transform: uppercase;
+    clear: both;
+    margin-bottom: 21px;
+}
+
+.booking .social_btn {
+    float: left;
+    clear: both;
+    color: #003057;
+    left: 70%;
+    position: relative;
+    text-align: center;
+}
+.booking .social_btn .fa {
+    color: #fff;
+	padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+	background: #003057;
+}
+.booking .social_btn .fa:hover  {
+    opacity: 0.83;
+    background-color: #B3D9F8;
+    color: #003057;
+}
+/*End Social Button*/
+
+/*Style for Contact form*/
+#commentForm {
+		width: 400px;
+	}
+	#commentForm label {
+		width: 250px;
+	}
+	#commentForm label.error, #commentForm input.submit {
+    margin-left: 26px;
+    font-family: "futura-pt";
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: small;
+	}

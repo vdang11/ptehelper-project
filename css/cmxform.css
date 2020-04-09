@@ -1,0 +1,24 @@
+@import url("../webfonts/AceSansThin/stylesheet.css");
+
+form.cmxform fieldset fieldset {
+	background: none;
+}
+
+form.cmxform label.error, label.error {
+    color: #F42271;
+    font-style: italic;
+    text-align: left;
+    text-transform: lowercase;
+    float: left;
+}
+div.error {
+    display: none;
+    font-weight: 200;
+    text-align: left;
+    text-transform: lowercase;
+}
+input {	border: 1px solid black; }
+input.checkbox { border: none }
+input:focus { border: 1px dotted black; }
+input.error { border: 1px dotted #F42271; }
+form.cmxform .gray * { color: black; }

@@ -1,0 +1,553 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/stp2sjp.css");
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url("../webfonts/AceSansThin/stylesheet.css");
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-style:normal;font-weight:400;
+}
+
+
+/*Stye for Main elements*/
+
+.main_body {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    clear: both;
+    color: #FFFFFF;
+    max-height: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55% 38%;
+}
+
+.main_header {
+    width: 100%;
+    float: left;
+    text-align: left;
+    background-color: #003057;
+    height: 15%;
+    clear: both;
+    position: fixed;
+    opacity: 1;
+    z-index: 1;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+a, a:hover {
+	color: #FFFB9F;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 98px;
+    margin-top: 7px;
+    padding-top: 0px;
+    float: left;
+}
+
+.main_header .main_nav {
+    text-align: left;
+    width: 68%;
+    border-radius: 35px;
+    padding-top: 0px;
+    position: relative;
+    background-color: #003057;
+    color: #FFFFFF;
+    margin-bottom: 69px;
+    float: left;
+    margin-top: 13px;
+    margin-left: -18px;
+}
+
+
+
+nav ul li {
+    display: inline-table;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: relative;
+    padding: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 0px;
+    text-align: left;
+}
+
+nav ul li > .subnav {
+	display: none;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+
+nav ul li:hover .subnav {
+    display: block;
+    text-align: left;
+    background-size: contain;
+    background-color: rgba(255,251,159,1.00);
+}
+nav ul li:hover .subnav .subnavlist:hover {
+    display: block;
+    text-align: left;
+    background-size: contain;
+    padding: 0;
+}
+
+.subnav .subnavlist a.second_nav_text {
+    font-weight: normal;
+    font-size: large;
+    text-align: left;
+    margin: 0;
+    color: #003057;
+    padding-left: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subnav .subnavlist a.second_nav_text:hover {
+    color: #003057;
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 4px;
+    letter-spacing: 2px;
+}
+
+.main_nav .navlist .navlistitem > a.main_nav_text   {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: large;
+    width: 0;
+    letter-spacing: 2px;
+}
+
+.main_nav .navlist .navlistitem a.main_nav_text:hover    {
+    background-color: #FFFB9F;
+    color: #003057;
+    font-size: large;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.main_header .main_nav .navlist {
+    width: 100%;
+    float: left;
+    padding-left: 114px;
+    clear: both;
+    margin-left: -5%;
+}
+
+.main_nav .navlist #iamhere a {
+    color: #FFFFFF;
+    border-bottom: 5px outset #F42271;
+}
+.main_nav .navlist #iamhere a:hover {
+	color: #003057;
+}
+/*End Style for Navigation*/
+
+
+/*Style for Call Now*/
+.call_now {
+    float: right;
+    width: 15%;
+    clear: both;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-radius: 21px;
+    margin-top: -140px;
+}
+.call_now h2 {
+    background-color: #F42271;
+    text-align: center;
+    padding-left: 0px;
+    color: #FFFFFF;
+    border-bottom-left-radius: 28px;
+    border-top-left-radius: 28px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.call_now h2 a {
+    color: rgba(255,255,255,1.00);
+	font-family: futura-pt-bold;
+    font-weight: 500;
+}
+.call_now h2 a:hover  {
+    color: rgba(244,34,113,1.00);
+}
+
+.call_now h2:hover {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-left: 0px;
+    color: #F42271;
+    border-radius: 28px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    -webkit-box-shadow: inset 8px 0 0px rgba(213,232,247,1.00);
+    box-shadow: inset 8px 0 0px rgba(213,232,247,1.00);
+}
+/*Style for input fields*/
+
+input[type=text], input[type=password] {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    float: left;
+    clear: both;
+}
+inout[type=checkbox] {
+	width: 100%;
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+
+/*Style for Footer*/
+
+footer .footer_2 .h4_slogan {
+    margin-top: -19px;
+    font-weight: lighter;
+}
+
+.main_body footer {
+    background-color: rgba(0,48,87,1.00);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin-top: 38px;
+    float: left;
+}
+
+footer .footer_1 .h2_title {
+    width: 40%;
+    letter-spacing: 4px;
+}
+footer .copyright h5 {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: rgba(255,251,159,1.00);
+}
+.footer_2 .footnote_nav .footnote_nav_items {
+    color: rgba(255,255,255,1.00);
+    text-transform: uppercase;
+}
+
+.footer_2 .footnote_nav .footnote_nav_items:hover  {
+    color: rgba(255,255,255,1.00);
+    text-transform: uppercase;
+	border-bottom: 5px outset #F42271;
+}
+
+section.footer_1 h2.h2_title_footer{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: xx-large;
+    border: medium solid #003057;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+}
+.main_body .main_content {
+    width: 100%;
+    float: left;
+    position: static;
+    display: block;
+    margin-top: 114px;
+    background-color: rgba(255,255,255,1.00);
+}
+
+.main_content .login_form img {
+    margin-right: 0px;
+    left: 35%;
+    right: 50%;
+    position: relative;
+}
+.main_content .login_form .bottom-container {
+    background-color: rgba(0,48,87,1.00);
+    margin-top: 60%;
+}
+.login_form .bottom-container .row {
+    margin-left: 20%;
+}
+.bottom-container .row .col {
+    width: 35%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: AceSansThin;
+    background-color: rgba(0,48,87,1.00);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    margin-right: 7px;
+    margin-left: 7px;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    font-weight: 900;
+}
+.bottom-container .row .col:hover  {
+    width: 35%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: AceSansThin;
+    background-color: rgba(244,34,113,1.00);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    color: rgba(0,48,87,1.00);
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.main_content .login_form .form_input {
+    text-align: left;
+    width: 55%;
+    color: rgba(0,48,87,1.00);
+    background-color: rgba(255,251,159,1.00);
+    -webkit-box-shadow: 7px 7px 7px rgba(75,75,69,1.00);
+    box-shadow: 7px 7px 7px rgba(75,75,69,1.00);
+    position: relative;
+    left: 10%;
+    padding-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 22px;
+    right: auto;
+    margin-left: 10%;
+    margin-right: 7%;
+    float: left;
+    clear: both;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 21px;
+    opacity: 1;
+}
+.main_body .main_content .login_form {
+    width: 40%;
+    float: left;
+    background-color: rgba(255,255,255,1.00);
+    clear: both;
+}
+
+
+.main_content .login_form .form_text_cap {
+    text-align: left;
+    font-family: AceSansThin;
+    font-size: x-large;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,1.00);
+    width: 100%;
+    padding-right: 0px;
+    float: left;
+    padding-top: 23px;
+}
+.main_content .login_form .form_text {
+    float: left;
+    text-align: left;
+    font-family: futura-pt, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,1.00);
+}
+
+.main_body .main_content .login_image {
+    width: 60%;
+    float: right;
+    background-color: rgba(255,255,255,1.00);
+}
+.form_input .form_text_cap .fa.fa-fw.fa-key.login {
+    color: rgba(255,255,255,1.00);
+    padding-top: 5px;
+    background-color: rgba(0,48,87,1.00);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 15%;
+    padding-right: 5px;
+    clear: both;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+.form_input .form_text_cap .fa.fa-fw.fa-user.login {
+    color: rgba(255,255,255,1.00);
+    background-color: rgba(0,48,87,1.00);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 15%;
+    padding-left: 5px;
+    margin-right: 0px;
+    text-align: center;
+    padding-right: 5px;
+    clear: both;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+.main_content .login_form #forgot {
+    display: inline-block;
+    margin-top: 95px;
+    float: right;
+    margin-right: 24%;
+    font-weight: lighter;
+    color: rgba(0,48,87,1.00);
+}
+.login_form .form_input #submit {
+    background-color: rgba(244,34,113,1.00);
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    font-size: x-large;
+    font-family: AceSansThin;
+    margin-top: 10%;
+    margin-left: 33%;
+    float: left;
+    clear: both;
+    position: relative;
+    margin-bottom: 0px;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    font-weight: 800;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.login_form .form_input #submit:hover  {
+    background-color: rgba(255,255,255,1.00);
+    color: rgba(244,34,113,1.00);
+    text-align: center;
+    font-size: x-large;
+    font-family: AceSansThin;
+    margin-top: 10%;
+    margin-left: 33%;
+    float: left;
+    clear: both;
+    position: relative;
+    margin-bottom: 0px;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+.form_input .form_text_cap .form_text_3 {
+    width: 60%;
+    font-size: large;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-family: futura-pt, sans-serif;
+    padding-top: 1px;
+    padding-left: 8px;
+    margin-right: 49px;
+    float: right;
+}
+.main_content .login_image img {
+    float: right;
+    width: 100%;
+}
+.login_form .form_input .form_container {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.main_content .login_form .title {
+    color: rgba(0,48,87,1.00);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: AceSansThin;
+    font-size: xx-large;
+    margin-top: 86px;
+    font-weight: 600;
+}
+.form_input .form_text_cap .fa.fa-fw.fa-search.login {
+    display: inline-block;
+    clear: both;
+    float: left;
+    width: 3%;
+}
+.form_input .form_text_cap .form_text {
+    float: left;
+    clear: both;
+}
+.form_input .form_container .remember_me {
+    margin-top: 25px;
+    position: relative;
+    clear: both;
+    float: left;
+    font-size: large;
+}
+.form_input #submit .form_text_4 {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    color: rgba(255,255,255,1.00);
+    margin-left: 2px;
+    float: left;
+    clear: both;
+}
+
+/*Style for Social Button*/
+.main_body .booking {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    float: left;
+    font-size: x-large;
+    text-transform: uppercase;
+    clear: both;
+    margin-bottom: 21px;
+}
+
+.booking .social_btn {
+    float: left;
+    clear: both;
+    color: #003057;
+    position: relative;
+    text-align: center;
+    left: 70%;
+}
+.booking .social_btn .fa {
+    color: #fff;
+	padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+	background: #003057;
+}
+.booking .social_btn .fa:hover  {
+    opacity: 0.83;
+    background-color: #B3D9F8;
+    color: #003057;
+}
+/*End Social Button*/

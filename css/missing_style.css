@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url("webfonts/AceSansThin/stylesheet.css");
+	 .button p {
+    color: #FFFFFF;
+    font-family: AceSansThin;
+    width: 15%;
+    background-color: #F42271;
+    float: left;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    position: relative;
+    left: 43%;
+    margin-top: -87px;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+	 }
+.button p:hover  {
+    color: #F42271;
+    font-family: AceSansThin;
+    width: 15%;
+    background-color: #FFFFFF;
+    float: left;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    position: relative;
+    left: 43%;
+    margin-top: -87px;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+	 }body img {
+    width: 100%;
+    position: relative;
+}

@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<!--Head-->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>PTE Helper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<!--main jQuery-->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--form validation plugin-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+<script>
+	$().ready(function() {
+		$("#commentForm").validate({
+			rules: {
+				email: {
+					required: true,
+					email: true
+				},
+				agree: "required"
+			},
+			    messages: {
+				email: "Please enter a valid email address",
+			}
+		});
+	});
+	</script>
+
+</head>
+<!--End Head-->
+	
+<body class="main_body">
+<!--Header-->
+<header class="main_header" id="header">
+<!--Logo-->
+<img class="logo" src="images/logo/helper_logo_4.svg" alt="logo" width="80" height="100"/>
+	
+<!--Navigation-->
+<nav id="part4" class="main_nav">
+    <ul class="navlist">
+       <li id="navpart1" class="navlistitem"><a class="main_nav_text" href="quickstart.html"><i class="fa fa-fw fa-home"></i>About Us</a></li>
+       <li id="navpart2" class="navlistitem"><a class="main_nav_text" href="#"><i class="fa fa-fw fa-search"></i>Courses<i class="fa fa-caret-down"></i></a>
+		<ul class="subnav">
+		  <li class="subnavlist"><a class="second_nav_text" href="#">PTE Beginner</a></li>
+		  <li class="subnavlist"><a class="second_nav_text" href="#">PTE Immediate</a></li>
+		  <li class="subnavlist"><a class="second_nav_text" href="#">PTE Advanced</a></li>
+		</ul>  
+	   </li>
+       <li id="navpart3" class="navlistitem"><a class="main_nav_text" href="#"><i class="fa fa-fw fa-laptop"></i>News<i class="fa fa-caret-down"></i></a>
+		<ul class="subnav">
+		  <li class="subnavlist"><a class="second_nav_text" href="#">PTE News</a></li>
+		  <li class="subnavlist"><a class="second_nav_text" href="#">Reviews</a></li>
+		  <li class="subnavlist"><a class="second_nav_text" href="#">Immigration</a></li>
+		</ul>
+	   </li>
+       <li id="navpart4" class="navlistitem"><a class="main_nav_text" href="contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+	   </li>
+	   <li id="navpart5" class="navlistitem"><a class="main_nav_text" href="login.html"><i class="fa fa-fw fa-user"></i>Login</a>
+	   </li>
+	</ul>  
+</nav>
+<!--End Navigation-->
+<div class="call_now">
+  <h2><a href="#">+61.449.606.991</a></h2>
+</div>
+</header>
+<!--End Header-->
+	
+<!--Contact And Enquiry Form-->
+<aside class="cubes left">
+  <div class="cubes_a"><img src="images/cube_4.png" width="80" alt=""/></div>
+  <div class="cubes_c"><img src="images/cube_7.png" width="100" alt=""/></div>
+</aside>
+<main class="contact">
+  <section class="contact_title"><!--100%-->
+    <h2>Contact Us</h2>
+	<p>We are more than happy to answer any question via our contact page. <br> Please drop you message or give us a call for all appointment matters</p>
+  </section>
+  <section class="contact_info"><!--50%-->
+  <div class="img"><img src="images/contact_img.png" width="400" alt=""/></div><br>
+  <div class="get_in_touch">
+	<div class="address"></div>
+	  <div class="address_icon"><i class="fa fa-fw fa-user login"></i></div>
+	  <div class="address_info">
+	    <h4>Head Office Location</h4>
+		<p>Suite 1.05 365 Lt Collins Street Melbourne, 300 VIC Australia</p>
+	  </div><!--address_info-->
+	<div class="address"></div><!--address line 1-->
+	<div class="address"></div>
+	  <div class="address_icon"><i class="fa fa-fw fa-user login"></i></div>
+	  <div class="address_info">
+	    <h4>Head Office Contact</h4>
+		<p>0449 606 991 pte.helper.vn@gmail.com</p>
+	  </div><!--address_info-->
+	<div class="address"></div><!--address line 2-->
+  </div><!--get_in_touch-->
+  </section><!--End Contact Info-->
+  <div class="container"><!--50%-->
+  <form class="cmxform" id="commentForm" method="post" action="https://cscis12.dce.harvard.edu/echo">
+    <fieldset>
+	  <legend class="form_title">Send us your enquiry</legend>
+	  <label for="name" class="form_info">Name</label>
+	  <input type="text" name="1-Customer's Name" size="30" maxlength="100" placeholder ="Your Full Name*" class="box" id="name" required><br>
+	  <label for="address" class="form_info">Address</label>
+	  <input type="text" name="2-Address" placeholder="Your Address*" class="box" id="address" required><br>
+	  <label for="phone" class="form_info">Phone Number</label>
+	  <input type="text" name="3-Phone number" placeholder="Your Phone Number" class="box" id="phone"><br>
+	  <textarea name="4-Your enquiries" rows="10" cols="60" placeholder="Your Enquiry*" required></textarea>
+	</fieldset>
+	 <!--Submit-->
+	<p class="submit"><input type="submit" value="submit"></p>
+  </form>
+  </div><!--End Form-->
+</main><!--End Contact-->
+<aside class="cubes right">
+  <div class="cubes_a"><img src="images/cube_4.png" width="90" alt=""/></div>
+  <div class="cubes_b"><img src="images/cube_7.png" width="80" alt=""/></div>
+  <div class="cubes_c"><img src="images/cube_6.png" width="100" alt=""/></div>
+</aside>
+
+<!--End Contact And Enquiry Form--> 
+<!--Location-->
+<div class="location_container">
+  <div class="location_container_left">
+  <div class="location_list">
+	  <div class="overlay_container">
+	  <article class="list_a">
+	    <img src="images/cities/sydney.png" width="200" alt=""/>
+	    <div class="location_info">
+        <h4>Sydney</h4>
+	    <p>365 Lt Collins<br>0449606991</p>
+	    </div>
+	  </article>
+	  <div class="overlay_a"><div class="text" onClick="zoom_map2()">Sydney</div></div>
+	  </div><!--Overlay container-->
+	  
+	  <div class="overlay_container">
+	  <article class="list_b">
+	    <img src="images/cities/melbourne.png" width="200" alt=""/>
+	    <div class="location_info">
+        <h4>Melbourne</h4>
+	    <p>365 Lt Collins<br>0449606991</p>
+	    </div>
+	  </article>
+      <div class="overlay_b"><div class="text" onClick="zoom_map1()">Melbourne</div></div>
+	  </div><!--Overlay container-->
+  </div> 
+	
+  <div class="location_list">
+	<div class="overlay_container">
+      <article class="list_b">
+	    <img src="images/cities/tasmania.png" width="200" alt=""/>
+	    <div class="location_info">
+        <h4>Tasmania</h4>
+	    <p>365 Lt Collins<br>0449606991</p>
+	    </div>
+	  </article>
+	  <div class="overlay_b"><div class="text" onClick="zoom_map3()">Tasmania</div></div>
+	</div><!--Overlay container-->
+	  
+	<div class="overlay_container">
+	  <article class="list_a">
+	    <img src="images/cities/hochiminh.png" width="200" alt=""/>
+	    <div class="location_info">
+        <h4>Ho Chi Minh</h4>
+	    <p>365 Lt Collins<br>0449606991</p>
+	    </div>
+	  </article>
+	  <div class="overlay_a"><div class="text" onClick="zoom_map4()">Ho Chi Minh</div></div>
+	</div><!--Overlay container-->
+  </div><!--End location_list-->
+  </div><!--End location_container_lef-->
+	<!--Google Map-->
+<div id="googleMap" style="width:50%;height:625px;"></div>
+<!--End Google Map-->
+</div><!--End location container-->
+<!--End Location-->
+
+<!--Booking-->
+<div class="booking">
+	<div class="social_btn">
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-youtube"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	<a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-twitter"></a>
+	</div>
+</div>
+<!--End booking-->
+<!--Footnote-->
+<footer>
+  <section class="footer_1">
+   <img src="images/logo/helper_logo_transparency.png" width="150" alt=""/>
+   <h2 class="h2_title_footer">PTE Helper</h2></section>
+  <section class="footer_2">
+   <h4 class="h4_slogan">Ensured Quality. Gurantee Success</h4>
+   <p class="footnote_nav">
+    <a class="footnote_nav_items" href="quickstart.html">About Us</a> |  
+	<a class="footnote_nav_items" href="login.html">Our Courses</a> | 
+	<a class="footnote_nav_items" href="quickstart.html">News</a> |  
+	<a class="footnote_nav_items" href="contact.html">Contact</a>    
+   </p>
+  </section>
+  <section class="copyright"><h5><i class="fa fa-fw fa-copyright"></i>2019 Huy Nguyen. All rights reserved.</h5></section>
+</footer>
+<!--Javascript-->
+<script src="js/script.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/move_2.js"></script>
+<script src="js/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8ZG4AT2SZCIxZKNc9Eas1goq4ZtdIs2c
+&callback=myMap"></script>
+	
+</body>
+</html>

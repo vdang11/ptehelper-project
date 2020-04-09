@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<!--Head-->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>PTE Helper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/login_form.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<script src="js/script.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<!--End Head-->
+	
+<body class="main_body">
+<!--Header-->
+<header class="main_header" id="header">
+<!--Logo-->
+<img class="logo" src="images/logo/helper_logo_4.svg" alt="logo" width="80" height="100"/>
+
+<!--Navigation-->
+<nav id="part5" class="main_nav">
+    <ul class="navlist">
+       <li id="navpart1" class="navlistitem"><a class="main_nav_text" href="quickstart.html"><i class="fa fa-fw fa-home"></i>About Us</a></li>
+       <li id="navpart2" class="navlistitem"><a class="main_nav_text" href="#"><i class="fa fa-fw fa-search"></i>Courses<i class="fa fa-caret-down"></i></a>
+		<ul class="subnav">
+		  <li class="subnavlist"><a class="second_nav_text" href="#">PTE Beginner</a></li>
+		  <li class="subnavlist"><a class="second_nav_text" href="#">PTE Immediate</a></li>
+		  <li class="subnavlist"><a class="second_nav_text" href="#">PTE Advanced</a></li>
+		</ul>  
+	   </li>
+       <li id="navpart3" class="navlistitem"><a class="main_nav_text" href="#"><i class="fa fa-fw fa-laptop"></i>News<i class="fa fa-caret-down"></i></a>
+		<ul class="subnav">
+		  <li class="subnavlist"><a class="second_nav_text" href="#">PTE News</a></li>
+		  <li class="subnavlist"><a class="second_nav_text" href="#">Reviews</a></li>
+		  <li class="subnavlist"><a class="second_nav_text" href="#">Immigration</a></li>
+		</ul>
+	   </li>
+       <li id="navpart4" class="navlistitem"><a class="main_nav_text" href="contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+	   </li>
+	   <li id="navpart5" class="navlistitem"><a class="main_nav_text" href="login.html"><i class="fa fa-fw fa-user"></i>Login</a>
+	   </li>
+	</ul>  
+</nav>
+<!--End Navigation-->
+<div class="call_now">
+  <h2><a href="#">+61.449.606.991</a></h2>
+</div>
+</header>
+<!--End Header-->
+
+<!--Main Content-->
+<main class="main_content">
+  <aside class="login_form">
+    <h2 class="title">Welcome Back</h2>
+    <form class="form_input" method="post" name="login_form">
+		<div class="form_container">
+	    <label for="username" class="form_text_cap"><i class="fa fa-fw fa-user login"></i>
+	    <input type="text" placeholder="Enter Your Username" name="username" required class="form_text_3" id="username"></label>
+	    <label for="password" class="form_text_cap"><i class="fa fa-fw fa-key login"></i>
+        <input type="text" placeholder="Enter Password" name="password" required class="form_text_3" id="password"></label><br>
+	    <button type="submit" value="login" id="submit" onclick="validate()" class="form_text_4">Login</button><br>
+		<label for="remember" class="remember_me"> <input type="checkbox" checked="checked" name="remember" id="remember"> Remember me</label>
+		</div>
+	  </form>
+	 <div class="bottom-container">
+       <div class="row">
+       <div class="col">
+          <a href="#" style="color:white" class="btn">Sign up</a>
+       </div>
+       <div class="col">
+       <a href="#" style="color:white" class="btn">Forgot password?</a>
+       </div>
+       </div>
+     </div>
+  </aside>
+	
+  <aside class="login_image"><img src="images/login_img.jpg" width="860"  alt=""/></aside>
+</main>
+<!--End Main Content-->
+<!--Booking-->
+<div class="booking">
+	<div class="social_btn">
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-youtube"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	<a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-twitter"></a>
+	</div>
+</div>
+<!--End booking-->
+<!--Footnote-->
+<footer>
+  <section class="footer_1">
+   <img src="images/logo/helper_logo_transparency.png" width="150" alt=""/>
+   <h2 class="h2_title_footer">PTE Helper</h2></section>
+  <section class="footer_2">
+   <h4 class="h4_slogan">Ensured Quality. Gurantee Success</h4>
+   <p class="footnote_nav">
+    <a class="footnote_nav_items" href="quickstart.html">About Us</a> |  
+	<a class="footnote_nav_items" href="login.html">Our Courses</a> | 
+	<a class="footnote_nav_items" href="quickstart.html">News</a> |  
+	<a class="footnote_nav_items" href="contact.html">Contact</a>    
+   </p>
+  </section>
+  <section class="copyright"><h5><i class="fa fa-fw fa-copyright"></i>2019 Huy Nguyen. All rights reserved.</h5></section>
+</footer>
+<!--Javascript-->
+<script src="js/script.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/move.js"></script>
+	
+</body>
+</html>
+
